@@ -1,4 +1,4 @@
-package emptygoproject 
+package googlehashcode 
 
 import (
     "flag"
