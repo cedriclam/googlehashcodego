@@ -1,0 +1,16 @@
+image: go1.2
+env:
+  - GOROOT=/usr/local/go
+  - GOPATH=/var/cache/drone
+  - PATH=$GOPATH/bin:$GOPATH/bin:$PATH
+script:
+  - cd src
+  - go get
+  - go build
+  - cd utils
+  - go get github.com/bmizerany/assert
+  - go test -short
+notify:
+  email:
+    recipients:
+      - cedric.lamoriniere@gmail.com
