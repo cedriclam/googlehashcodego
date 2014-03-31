@@ -1,4 +1,4 @@
-emptygoproject
-==============
+Google Hash Code Go
+===================
 
-Empty Go project
+Empty Go project each tash in a new branch
