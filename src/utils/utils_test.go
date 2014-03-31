@@ -7,7 +7,7 @@ import (
 
 func TestGetInput(t *testing.T){
 	word := "foo"
-	isfoo, err != GetInput(word)
+	isfoo, err := GetInput(word)
 	if err != nil {
 		t.Fatal(err)
 	}
