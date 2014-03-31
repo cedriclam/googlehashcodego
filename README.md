@@ -1,0 +1,4 @@
+emptygoproject
+==============
+
+Empty Go project
